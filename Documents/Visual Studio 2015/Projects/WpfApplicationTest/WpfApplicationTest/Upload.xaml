@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApplicationTest.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplicationTest"
+        mc:Ignorable="d"
+        Title="Window2" Height="510.066" Width="525">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="146,0,0,0" TextWrapping="Wrap" Text="Image Upload" VerticalAlignment="Top" Height="49" Width="251" FontSize="36" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Left" Height="167" Margin="54,63,0,0" VerticalAlignment="Top" Width="413" Background="#FFCBC8C8">
+            <Slider x:Name="slider" HorizontalAlignment="Left" Height="417" Margin="196,-37,0,-213" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="16">
+                <Slider.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="89.976"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Slider.RenderTransform>
+            </Slider>
+            <Separator HorizontalAlignment="Left" Height="157" Margin="138,4,0,0" VerticalAlignment="Top" Width="161" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="89.86"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+        </Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="54,432,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="button" Content="Upload" HorizontalAlignment="Left" Margin="392,435,0,0" VerticalAlignment="Top" Width="75" Background="#FF2C406A" BorderBrush="#FFFDF9F9" Foreground="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="54,402,0,0" TextWrapping="Wrap" Text="Image Selected" VerticalAlignment="Top" Width="103"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="54,258,0,0" TextWrapping="Wrap" Text="Tags" VerticalAlignment="Top" Width="79"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="130,274,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
